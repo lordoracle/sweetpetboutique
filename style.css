@@ -1,0 +1,434 @@
+/*
+Theme Name: Sweet Pet Boutique
+Theme URI: http://gonzalocaminos.com.ar
+Author: Gonzalo Caminos
+Author URI: http://gonzalocaminos.com.ar/
+Description: Theme Wordpress para Sweet Pet Boutique.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: black, brown, orange, tan, white, yellow, light, one-column, two-columns, right-sidebar, flexible-width, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, translation-ready
+Text Domain: sweetpetboutique
+
+Prohibida su copia y distribución sin consetimiento del autor.
+*/
+
+
+
+
+@import 'https://fonts.googleapis.com/css?family=PT+Sans';
+
+.navbar-inverse { background-color: #FFFFFF}
+.navbar-inverse .navbar-nav>.active>a:hover,.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus { background-color: #FFFFFF}
+.navbar-inverse .navbar-nav>.active>a,.navbar-inverse .navbar-nav>.open>a,.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover,.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus { background-color: #FF7FB8}
+.dropdown-menu { background-color: #FFFFFF}
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus { background-color: #ff7fb8}
+.navbar-inverse { background-image: none; }
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus { background-image: none; }
+.navbar-inverse { border-color: #FFFFFF}
+.navbar-inverse .navbar-brand { color: #000000}
+.navbar-inverse .navbar-brand:hover { color: #FF7FB8}
+.navbar-inverse .navbar-nav>li>a { color: #000000}
+.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus { color: #FF7FB8}
+.navbar-inverse .navbar-nav>.active>a,.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus { color: #FFFFFF}
+.navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus { color: #FFFFFF}
+.dropdown-menu>li>a { color: #333333}
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus { color: #FFFFFF}
+.navbar-inverse .navbar-nav>.dropdown>a .caret { border-top-color: #999999}
+.navbar-inverse .navbar-nav>.dropdown>a:hover .caret { border-top-color: #FFFFFF}
+.navbar-inverse .navbar-nav>.dropdown>a .caret { border-bottom-color: #999999}
+.navbar-inverse .navbar-nav>.dropdown>a:hover .caret { border-bottom-color: #FFFFFF}
+
+.navbar-toggle{
+	background-color: #ff7fb8;
+	border-color:#ff7fb8;
+}
+
+.navbar-toggle:hover{
+
+}
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+  font-family: 'PT Sans', sans-serif;
+}
+
+.admin-bar .navbar-fixed-top {
+	margin-top: 30px;
+}
+
+@media (min-width:768px) {
+	.sub-menu {
+		display: none;
+		position: absolute;
+		background: #222;
+		padding: 10px 15px;
+		width: 200px;		
+	}
+
+	li:hover .sub-menu {
+		display: block;
+	}
+
+}
+
+.sub-menu li {
+	margin-bottom: 10px;
+	list-style: none;
+}
+
+.sub-menu li:last-child {
+	margin-bottom: 0;
+}
+
+.sub-menu a  {
+	color: #999;
+	text-decoration: none;
+}
+
+.sub-menu a:hover  {
+	color: #fff;	
+}	
+
+.current-menu-item > a, .current-menu-parent > a {
+	background: red;	
+}
+.current-menu-parent li a {
+	background: inherit;
+}
+.current-menu-parent .current-menu-item a {
+	color: #fff;
+	font-weight: bold;
+}
+
+.sidebar {
+	margin-top: 40px;
+	color:#444;
+
+}
+.sidebaar h3 {
+	color:#888;
+}
+
+.widget{
+	margin: 10px 0 10px;
+}
+
+
+/*Slider Caption*/
+
+.carousel-caption{
+
+	font-weight: 1.5;
+
+	font-family: 'PT Sans', sans-serif;
+
+	background-color: white;
+
+	opacity: 0.7;
+
+	filter: alpha(opacity =0.7);
+
+	height: 100px;
+
+	color:black;
+
+font-size: 22px;
+
+ padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 5px;
+    padding-left: 5px;
+
+-webkit-border-radius: 15px;
+
+-moz-border-radius: 15px;
+
+border-radius: 15px;
+}
+
+
+
+
+
+
+.texto-slider {
+	color:black;
+	font-size: 15px;
+	padding-left: 5px;
+}
+
+
+.featured-image img,
+.portfolio-piece img,
+.portfolio-image img {
+	max-width: 100%;
+}
+
+.prev-next {
+	font-size: 24px;
+	margin-top: 30px;
+	text-align: right;
+}
+
+
+@media (min-width:540px) {
+
+	.portfolio-piece h4{
+
+	font-size: .8em;
+
+	}
+
+
+}
+
+.jumbotran {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	background-size: 100% 100%;
+background-size: cover;
+margin-bottom: 150px;
+
+}
+
+
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+
+    width: 100%;
+    height: 100%;
+    max-height: 600px;
+}
+
+
+/** Cabecera *//
+
+header{
+
+	height: 150px;
+
+}
+
+
+/** Codigo del menu para que el boton novedades se vea rosado **/
+
+.novedades{
+
+	background-color: #ff7fb8;
+}
+
+
+/** Código CSS de los Boxes *//
+
+#veterinaria_boxes {
+	height: 100px;
+	margin-top: 50px;
+	font-style: bold;
+	font:inherit;
+}
+
+
+#productos_boxes {
+	height: 100px;
+	margin-top: 150px;
+	font-style: bold;
+	font:inherit;
+}
+
+
+
+#spa_boxes {
+	height: 100px;
+	margin-top: 50px;
+	font-style: bold;
+	font:inherit;
+}
+
+
+#boutique_boxes {
+	height: 100px;
+	margin-top: 50px;
+	font-style: bold;
+	font:inherit;
+}
+
+
+
+/* Estilos para los iconos sociales. */
+
+.social {
+	margin-left: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-right: 0;
+  
+    padding: 0;
+}
+
+.social ul {
+    margin: 0;
+    padding: 5px;
+}
+
+.social ul li {
+    margin: 5px;
+    list-style: none outside none;
+    display: inline-block;
+}
+
+.social i {
+    width: 30px;
+    height: 30px;
+    color: black;
+        border-style: solid;
+    border-color:#b2956d;
+
+    background-color: white;
+    font-size: 15px;
+    text-align:center;
+    padding-top: 22%;
+    padding-left: 3%;
+    border-radius: 100%;
+    -moz-border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -o-border-radius: 100%;
+    transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    -webkit-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+    -ms-transition: all ease 0.3s;
+}
+
+.social i:hover {
+    color: #FFF;
+    text-decoration: none;
+    transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    -webkit-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+    -ms-transition: all ease 0.3s;
+}
+
+.social .fa-facebook:hover {
+    background: #4060A5;
+}
+
+.social .fa-twitter:hover {
+    background: #00ABE3;
+}
+
+.social .fa-google-plus:hover {
+    background: #e64522;
+}
+
+.social .fa-github:hover {
+    background: #343434;
+}
+
+.social .fa-pinterest:hover {
+    background: #cb2027;
+}
+
+.social .fa-linkedin:hover {
+    background: #0094BC;
+}
+
+.social .fa-flickr:hover {
+    background: #FF57AE;
+}
+
+.social .fa-instagram:hover {
+    background: #375989;
+}
+
+.social .fa-vimeo-square:hover {
+    background: #83DAEB;
+}
+
+.social .fa-stack-overflow:hover {
+    background: #FEA501;
+}
+
+.social .fa-dropbox:hover {
+    background: #017FE5;
+}
+
+.social .fa-tumblr:hover {
+    background: #3a5876;
+}
+
+.social .fa-dribbble:hover {
+    background: #F46899;
+}
+
+.social .fa-skype:hover {
+    background: #00C6FF;
+}
+
+.social .fa-stack-exchange:hover {
+    background: #4D86C9;
+}
+
+.social .fa-youtube:hover {
+    background: #FF1F25;
+}
+
+.social .fa-xing:hover {
+    background: #005C5E;
+}
+
+.social .fa-rss:hover {
+    background: #e88845;
+}
+
+.social .fa-foursquare:hover {
+    background: #09B9E0;
+}
+
+.social .fa-youtube-play:hover {
+    background: #DF192A;
+}
+
+
+.navbar-nav{
+	margin-left: 12%;
+}
+
+
+/* Centro el menu desplegable en estas resoluciones:*/
+
+@media (max-width:411px) {
+	.navbar-nav {
+		margin-left: 0;
+	}
+}
+
+
+@media (max-width:360px) {
+	.navbar-nav{
+		margin-left: 0;
+	}
+
+	}	
+
+@media (max-width:375px) {
+	.navbar-nav{
+		margin-left: -5%;
+
+	}
+	
+	}		
+
+@media (max-width: 640px){
+
+		.navbar-nav{
+		margin-left: 0;
+	}
+
+
+		.social{
+		margin-left: 30%;
+	}
+}
+
